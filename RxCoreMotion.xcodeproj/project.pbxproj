@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07D678661E7F67540013F645 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D678651E7F67540013F645 /* RxSwift.framework */; };
 		07D678681E7F676C0013F645 /* RxCoreMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D678671E7F676C0013F645 /* RxCoreMotion.swift */; };
 		07D6786C1E7F67B10013F645 /* RxCoreMotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D6786B1E7F67940013F645 /* RxCoreMotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07D6786E1E7F6D080013F645 /* RxSwift.framework.dSYM in [Carthage] Copy dSYMS */ = {isa = PBXBuildFile; fileRef = 07D6786D1E7F6C4B0013F645 /* RxSwift.framework.dSYM */; };
 		667B13081E7BCE22001151C7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667B13071E7BCE22001151C7 /* CoreMotion.framework */; };
 		667B130A1E7BCE28001151C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667B13091E7BCE28001151C7 /* Foundation.framework */; };
 		79FD4AFA1ED4C03500B27328 /* MotionActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD4AF91ED4C03500B27328 /* MotionActivityManager.swift */; };
+		974BBCA322807F4900D62442 /* RxSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 974BBCA122807F4900D62442 /* RxSwift.framework.dSYM */; };
+		974BBCA422807F4900D62442 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974BBCA222807F4900D62442 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				07D6786E1E7F6D080013F645 /* RxSwift.framework.dSYM in [Carthage] Copy dSYMS */,
 			);
 			name = "[Carthage] Copy dSYMS";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,15 +30,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07D678651E7F67540013F645 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		07D678671E7F676C0013F645 /* RxCoreMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxCoreMotion.swift; path = Pod/Classes/RxCoreMotion.swift; sourceTree = SOURCE_ROOT; };
 		07D6786A1E7F67940013F645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07D6786B1E7F67940013F645 /* RxCoreMotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxCoreMotion.h; sourceTree = "<group>"; };
-		07D6786D1E7F6C4B0013F645 /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxSwift.framework.dSYM; path = Carthage/Build/iOS/RxSwift.framework.dSYM; sourceTree = "<group>"; };
 		667B12F51E7BCACB001151C7 /* RxCoreMotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCoreMotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		667B13071E7BCE22001151C7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		667B13091E7BCE28001151C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79FD4AF91ED4C03500B27328 /* MotionActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionActivityManager.swift; path = Pod/Classes/MotionActivityManager.swift; sourceTree = SOURCE_ROOT; };
+		974BBCA122807F4900D62442 /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = RxSwift.framework.dSYM; sourceTree = "<group>"; };
+		974BBCA222807F4900D62442 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +48,7 @@
 			files = (
 				667B130A1E7BCE28001151C7 /* Foundation.framework in Frameworks */,
 				667B13081E7BCE22001151C7 /* CoreMotion.framework in Frameworks */,
-				07D678661E7F67540013F645 /* RxSwift.framework in Frameworks */,
+				974BBCA422807F4900D62442 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +95,8 @@
 		788EF9CBABF5068261AC6651 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				07D6786D1E7F6C4B0013F645 /* RxSwift.framework.dSYM */,
-				07D678651E7F67540013F645 /* RxSwift.framework */,
+				974BBCA222807F4900D62442 /* RxSwift.framework */,
+				974BBCA122807F4900D62442 /* RxSwift.framework.dSYM */,
 				667B13071E7BCE22001151C7 /* CoreMotion.framework */,
 				667B13091E7BCE28001151C7 /* Foundation.framework */,
 			);
@@ -126,7 +125,6 @@
 				667B12F11E7BCACB001151C7 /* Frameworks */,
 				667B12F21E7BCACB001151C7 /* Headers */,
 				667B12F31E7BCACB001151C7 /* Resources */,
-				667B13061E7BCCF5001151C7 /* [Carthage] Copy Frameworks */,
 				667B13031E7BCCA9001151C7 /* [Carthage] Copy dSYMS */,
 			);
 			buildRules = (
@@ -145,7 +143,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "RxSwiftCommunity - https://github.com/RxSwiftCommunity";
 				TargetAttributes = {
 					667B12F41E7BCACB001151C7 = {
@@ -157,7 +155,7 @@
 			};
 			buildConfigurationList = 071AD5A31CF171850058C7ED /* Build configuration list for PBXProject "RxCoreMotion" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -178,27 +176,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974BBCA322807F4900D62442 /* RxSwift.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		667B13061E7BCCF5001151C7 /* [Carthage] Copy Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[Carthage] Copy Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		667B12F01E7BCACB001151C7 /* Sources */ = {
@@ -217,19 +199,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -265,19 +256,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -320,6 +320,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/RxCoreMotion/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -330,7 +331,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -353,6 +354,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/RxCoreMotion/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -361,7 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rx.swift.RxCoreMotion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
